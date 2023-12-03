@@ -1,10 +1,10 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import Header from './Header'
-import './App.css'
+import Calculator from './Components/Calculator'
 import Content from './Content'
 import Footer from './Footer'
+import Counter from './Counter'
+import Clock from './Clock'
+import Clock2 from './Clock2'
 
 function App() {
 
@@ -13,7 +13,11 @@ function App() {
   return (
     <>
     <Header/>
+    <Clock locale = "bn-BD"/>
+    <Calculator/>
+    <Clock2/>
     <Content/>
+    <Counter/>
     <Footer/>
     
     </>
